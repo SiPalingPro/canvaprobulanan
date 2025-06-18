@@ -23,7 +23,7 @@
 
     <title>Canva Pro Bulanan - Gabung GRATIS Setiap Bulan</title>
     <link rel="canonical" href="https://sharecanva.pro/">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/assets/Canva Pro.png">
     
     <!-- Schema.org markup -->
     <script type="application/ld+json">
@@ -71,7 +71,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center space-x-3">
-                    <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" class="w-10 h-10 rounded-full object-cover" loading="eager">
+                    <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" class="w-8 h-8 rounded-full object-cover" loading="eager">
                     <span class="text-xl font-bold bg-gradient-to-r from-canva-purple to-canva-blue bg-clip-text text-transparent">
                         Canva Pro Bulanan
                     </span>
@@ -109,13 +109,13 @@
                     </p>
                     
                     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                        <button id="joinNowBtn" class="bg-white text-canva-purple font-bold py-4 px-8 rounded-full text-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg">
+                        <a href="/tautan/halaman-4.html" class="bg-white text-canva-purple font-bold py-4 px-8 rounded-full text-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg">
                             <span>🚀 Gabung Sekarang</span>
-                        </button>
+                        </a>
                         
-                        <button id="featuresBtn" class="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-white hover:text-canva-purple transition-all duration-300">
+                        <a href="/fitur.html" class="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-white hover:text-canva-purple transition-all duration-300">
                             <span>✨ Lihat Semua Fitur Canva Pro</span>
-                        </button>
+                        </a>
                         
                         <button id="donateBtn" class="bg-canva-yellow text-gray-900 font-bold py-4 px-8 rounded-full text-lg hover:bg-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg">
                             <span>💝 Donasi</span>
@@ -301,15 +301,6 @@
             html.classList.toggle('dark');
             const theme = html.classList.contains('dark') ? 'dark' : 'light';
             localStorage.setItem('theme', theme);
-        });
-
-        // Button functionality
-        document.getElementById('joinNowBtn').addEventListener('click', () => {
-            window.location.href = '/tautan/halaman-4.html';
-        });
-
-        document.getElementById('featuresBtn').addEventListener('click', () => {
-            window.open('/fitur.html', '_blank');
         });
 
         // QRIS Modal functionality
