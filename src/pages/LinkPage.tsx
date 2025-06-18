@@ -42,7 +42,7 @@ const LinkPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
-              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-10 h-10 rounded-full object-cover" />
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-8 h-8 rounded-full object-cover" />
               <span className="text-xl font-bold bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
                 Link Canva Pro 2025
               </span>
@@ -73,7 +73,7 @@ const LinkPage: React.FC = () => {
       <section className="pt-20 pb-12 bg-gradient-to-br from-purple-500 via-cyan-500 to-yellow-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center mb-6">
-            <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-16 h-16 rounded-full object-cover mr-4" />
+            <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-12 h-12 rounded-full object-cover mr-4" />
             <h1 className="text-4xl md:text-5xl font-bold text-white">
               Link Canva Pro 2025
             </h1>
@@ -88,32 +88,41 @@ const LinkPage: React.FC = () => {
       <section className="py-8 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-2">
-            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm">
-              📅 2022
+            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm flex items-center">
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-4 h-4 rounded-full object-cover mr-2" />
+              2022
             </span>
-            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm">
-              📅 2023
+            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm flex items-center">
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-4 h-4 rounded-full object-cover mr-2" />
+              2023
             </span>
-            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm">
-              📅 2024
+            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm flex items-center">
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-4 h-4 rounded-full object-cover mr-2" />
+              2024
             </span>
-            <span className="bg-purple-500 text-white px-4 py-2 rounded-lg font-bold text-sm">
-              📅 2025 (Aktif)
+            <span className="bg-purple-500 text-white px-4 py-2 rounded-lg font-bold text-sm flex items-center">
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-4 h-4 rounded-full object-cover mr-2" />
+              2025 (Aktif)
             </span>
-            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm">
-              📅 2026
+            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm flex items-center">
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-4 h-4 rounded-full object-cover mr-2" />
+              2026
             </span>
-            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm">
-              📅 2027
+            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm flex items-center">
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-4 h-4 rounded-full object-cover mr-2" />
+              2027
             </span>
-            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm">
-              📅 2028
+            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm flex items-center">
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-4 h-4 rounded-full object-cover mr-2" />
+              2028
             </span>
-            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm">
-              📅 2029
+            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm flex items-center">
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-4 h-4 rounded-full object-cover mr-2" />
+              2029
             </span>
-            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm">
-              📅 2030
+            <span className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-600 text-sm flex items-center">
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-4 h-4 rounded-full object-cover mr-2" />
+              2030
             </span>
           </div>
         </div>
@@ -395,7 +404,7 @@ const LinkPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 rounded-2xl p-8">
             <div className="flex items-center justify-center mb-6">
-              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-12 h-12 rounded-full object-cover mr-4" />
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-8 h-8 rounded-full object-cover mr-3" />
               <h3 className="text-2xl font-bold text-blue-900 dark:text-blue-300">
                 Cara Bergabung
               </h3>

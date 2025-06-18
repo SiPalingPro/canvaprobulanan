@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const HomePage: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
       {/* Navigation */}
@@ -8,7 +11,7 @@ const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
-              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-10 h-10 rounded-full object-cover" loading="eager" />
+              <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" className="w-8 h-8 rounded-full object-cover" loading="eager" />
               <span className="text-xl font-bold bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
                 Canva Pro Bulanan
               </span>
@@ -46,14 +49,14 @@ const HomePage: React.FC = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
                 <button 
-                  onClick={() => window.location.href = '/tautan/halaman-4'}
+                  onClick={() => navigate('/tautan/halaman-4')}
                   className="bg-white text-purple-600 font-bold py-4 px-8 rounded-full text-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg"
                 >
                   <span>🚀 Gabung Sekarang</span>
                 </button>
                 
                 <button 
-                  onClick={() => window.location.href = '/fitur'}
+                  onClick={() => navigate('/fitur')}
                   className="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-white hover:text-purple-600 transition-all duration-300"
                 >
                   <span>✨ Lihat Semua Fitur Canva Pro</span>
