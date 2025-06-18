@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gabung Canva Pro GRATIS setiap bulan! Akses semua fitur premium Canva tanpa biaya. Bergabunglah dengan komunitas kreatif kami.">
+    <meta name="keywords" content="Canva Pro, Gratis, Design, Grafis, Template, Premium">
+    <meta name="author" content="ShareCanva Pro">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sharecanva.pro/">
+    <meta property="og:title" content="Canva Pro Bulanan - Gabung GRATIS Setiap Bulan">
+    <meta property="og:description" content="Akses semua fitur premium Canva secara gratis. Bergabunglah dengan komunitas kreatif kami!">
+    <meta property="og:image" content="/assets/canva-pro-og.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sharecanva.pro/">
+    <meta property="twitter:title" content="Canva Pro Bulanan - Gabung GRATIS Setiap Bulan">
+    <meta property="twitter:description" content="Akses semua fitur premium Canva secara gratis. Bergabunglah dengan komunitas kreatif kami!">
+    <meta property="twitter:image" content="/assets/canva-pro-og.webp">
+
+    <title>Canva Pro Bulanan - Gabung GRATIS Setiap Bulan</title>
+    <link rel="canonical" href="https://sharecanva.pro/">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Canva Pro Bulanan",
+        "url": "https://sharecanva.pro",
+        "description": "Platform untuk bergabung dengan Canva Pro secara gratis setiap bulan",
+        "publisher": {
+            "@type": "Organization",
+            "name": "ShareCanva Pro",
+            "email": "email@sharecanva.pro"
+        }
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8'
+                        },
+                        canva: {
+                            purple: '#8b5cf6',
+                            blue: '#06b6d4',
+                            yellow: '#fbbf24'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50 border-b border-gray-200 dark:border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-3">
+                    <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" class="w-10 h-10 rounded-full object-cover" loading="eager">
+                    <span class="text-xl font-bold bg-gradient-to-r from-canva-purple to-canva-blue bg-clip-text text-transparent">
+                        Canva Pro Bulanan
+                    </span>
+                </div>
+                
+                <div class="flex items-center space-x-4">
+                    <!-- Language Toggle -->
+                    <select id="languageSelect" class="bg-transparent border border-gray-300 dark:border-gray-600 rounded-md px-2 py-1 text-sm">
+                        <option value="id">🇮🇩 ID</option>
+                        <option value="en">🇺🇸 EN</option>
+                    </select>
+                    
+                    <!-- Dark Mode Toggle -->
+                    <button id="darkModeToggle" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+                        <svg id="sunIcon" class="w-5 h-5 hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+                        </svg>
+                        <svg id="moonIcon" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main>
+        <section id="hero" class="pt-20 pb-16 bg-gradient-to-br from-canva-purple via-canva-blue to-canva-yellow">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="max-w-4xl mx-auto">
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span data-translate="hero-title">Gabung Canva Pro</span>
+                        <br>
+                        <span class="text-canva-yellow">GRATIS</span>
+                        <span data-translate="hero-subtitle"> tiap bulan!</span>
+                    </h1>
+                    
+                    <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto" data-translate="hero-description">
+                        Akses semua fitur premium Canva tanpa biaya. Bergabunglah dengan komunitas kreatif kami sekarang!
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+                        <button id="joinNowBtn" class="bg-white text-canva-purple font-bold py-4 px-8 rounded-full text-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg">
+                            <span data-translate="join-now">🚀 Gabung Sekarang</span>
+                        </button>
+                        
+                        <button id="featuresBtn" class="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-white hover:text-canva-purple transition-all duration-300">
+                            <span data-translate="view-features">✨ Lihat Semua Fitur Canva Pro</span>
+                        </button>
+                        
+                        <button id="donateBtn" class="bg-canva-yellow text-gray-900 font-bold py-4 px-8 rounded-full text-lg hover:bg-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg">
+                            <span data-translate="donate">💝 Donasi</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Info Section -->
+        <section id="info" class="py-16 bg-gray-50 dark:bg-gray-800">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
+                    <div class="text-center mb-8">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-4 text-gray-900 dark:text-white" data-translate="info-title">
+                            📢 Informasi Penting
+                        </h2>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                            <p class="text-lg text-gray-700 dark:text-gray-300" data-translate="info-usage">
+                                <strong>Silakan dipakai dan dibagikan, tapi jangan dijual!</strong>
+                            </p>
+                        </div>
+                        
+                        <div class="bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-6 rounded-r-lg">
+                            <p class="text-lg text-gray-700 dark:text-gray-300" data-translate="info-suggestion">
+                                <strong>Saran dari kami:</strong> Silakan bagikan website ini ke teman kalian yang ingin bergabung dengan tim Canva Pro Bulanan daripada harus kalian undang melalui Canva, karena setelah kami membagikan Canva ini maka kami tidak akan membuka Canva lagi dan undangan kalian pasti tertunda sampai kapanpun.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-16 bg-white dark:bg-gray-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4" data-translate="features-title">
+                        🎨 Fitur Canva Pro
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto" data-translate="features-subtitle">
+                        Dapatkan akses ke semua fitur premium yang akan mengubah cara Anda berkreasi
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">🎭</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3" data-translate="feature-1-title">Background Remover</h3>
+                        <p class="text-gray-600 dark:text-gray-400" data-translate="feature-1-desc">Hapus background gambar secara otomatis dengan AI canggih</p>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">📚</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3" data-translate="feature-2-title">Premium Templates</h3>
+                        <p class="text-gray-600 dark:text-gray-400" data-translate="feature-2-desc">Akses ribuan template premium untuk semua kebutuhan desain</p>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="bg-gradient-to-br from-cyan-50 to-teal-50 dark:from-cyan-900/20 dark:to-teal-900/20 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="w-12 h-12 bg-cyan-500 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">🖼️</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3" data-translate="feature-3-title">Premium Stock Photos</h3>
+                        <p class="text-gray-600 dark:text-gray-400" data-translate="feature-3-desc">Jutaan foto, ilustrasi, dan video berkualitas tinggi</p>
+                    </div>
+                    
+                    <!-- Feature 4 -->
+                    <div class="bg-gradient-to-br from-teal-50 to-green-50 dark:from-teal-900/20 dark:to-green-900/20 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">✨</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3" data-translate="feature-4-title">Magic Resize</h3>
+                        <p class="text-gray-600 dark:text-gray-400" data-translate="feature-4-desc">Ubah ukuran desain untuk berbagai platform secara otomatis</p>
+                    </div>
+                    
+                    <!-- Feature 5 -->
+                    <div class="bg-gradient-to-br from-green-50 to-yellow-50 dark:from-green-900/20 dark:to-yellow-900/20 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">👥</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3" data-translate="feature-5-title">Team Collaboration</h3>
+                        <p class="text-gray-600 dark:text-gray-400" data-translate="feature-5-desc">Berkolaborasi dengan tim dalam real-time</p>
+                    </div>
+                    
+                    <!-- Feature 6 -->
+                    <div class="bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">🎬</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3" data-translate="feature-6-title">Video Editor</h3>
+                        <p class="text-gray-600 dark:text-gray-400" data-translate="feature-6-desc">Edit video profesional dengan mudah</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center space-x-4 mb-6 md:mb-0">
+                    <img src="/assets/Canva Pro.png" alt="Canva Pro Logo" class="w-12 h-12 rounded-full object-cover">
+                    <div>
+                        <h3 class="text-xl font-bold">Canva Pro Bulanan</h3>
+                        <p class="text-gray-400">email@sharecanva.pro</p>
+                    </div>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="https://www.canva.com/policies/terms-of-use/" target="_blank" rel="noopener noreferrer" 
+                       class="text-gray-400 hover:text-white transition-colors" data-translate="terms">
+                        Terms of Use
+                    </a>
+                    <a href="https://www.canva.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" 
+                       class="text-gray-400 hover:text-white transition-colors" data-translate="privacy">
+                        Privacy Policy
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400" data-translate="copyright">
+                    © 2025 Canva Pro Bulanan. Dibuat dengan ❤️ untuk komunitas kreatif Indonesia.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- QRIS Modal -->
+    <div id="qrisModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 max-w-md w-full mx-4 transform transition-all duration-300 scale-95 opacity-0" id="qrisContent">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white" data-translate="donate-title">
+                    💝 Donasi QRIS
+                </h3>
+                <p class="text-gray-600 dark:text-gray-400 mb-6" data-translate="donate-desc">
+                    Terima kasih atas dukungan Anda untuk menjaga website ini tetap gratis!
+                </p>
+                
+                <!-- QRIS Image Placeholder -->
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-8 mb-6 aspect-square flex items-center justify-center">
+                    <div class="text-center">
+                        <div class="w-48 h-48 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-white text-6xl">📱</span>
+                        </div>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">QRIS Code akan ditampilkan di sini</p>
+                    </div>
+                </div>
+                
+                <button id="closeQrisBtn" class="w-full bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                    <span data-translate="close">Tutup</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Translations
+        const translations = {
+            id: {
+                'hero-title': 'Gabung Canva Pro',
+                'hero-subtitle': ' tiap bulan!',
+                'hero-description': 'Akses semua fitur premium Canva tanpa biaya. Bergabunglah dengan komunitas kreatif kami sekarang!',
+                'join-now': '🚀 Gabung Sekarang',
+                'view-features': '✨ Lihat Semua Fitur Canva Pro',
+                'donate': '💝 Donasi',
+                'info-title': '📢 Informasi Penting',
+                'info-usage': 'Silakan dipakai dan dibagikan, tapi jangan dijual!',
+                'info-suggestion': 'Saran dari kami: Silakan bagikan website ini ke teman kalian yang ingin bergabung dengan tim Canva Pro Bulanan daripada harus kalian undang melalui Canva, karena setelah kami membagikan Canva ini maka kami tidak akan membuka Canva lagi dan undangan kalian pasti tertunda sampai kapanpun.',
+                'features-title': '🎨 Fitur Canva Pro',
+                'features-subtitle': 'Dapatkan akses ke semua fitur premium yang akan mengubah cara Anda berkreasi',
+                'feature-1-title': 'Background Remover',
+                'feature-1-desc': 'Hapus background gambar secara otomatis dengan AI canggih',
+                'feature-2-title': 'Premium Templates',
+                'feature-2-desc': 'Akses ribuan template premium untuk semua kebutuhan desain',
+                'feature-3-title': 'Premium Stock Photos',
+                'feature-3-desc': 'Jutaan foto, ilustrasi, dan video berkualitas tinggi',
+                'feature-4-title': 'Magic Resize',
+                'feature-4-desc': 'Ubah ukuran desain untuk berbagai platform secara otomatis',
+                'feature-5-title': 'Team Collaboration',
+                'feature-5-desc': 'Berkolaborasi dengan tim dalam real-time',
+                'feature-6-title': 'Video Editor',
+                'feature-6-desc': 'Edit video profesional dengan mudah',
+                'terms': 'Terms of Use',
+                'privacy': 'Privacy Policy',
+                'copyright': '© 2025 Canva Pro Bulanan. Dibuat dengan ❤️ untuk komunitas kreatif Indonesia.',
+                'donate-title': '💝 Donasi QRIS',
+                'donate-desc': 'Terima kasih atas dukungan Anda untuk menjaga website ini tetap gratis!',
+                'close': 'Tutup'
+            },
+            en: {
+                'hero-title': 'Join Canva Pro',
+                'hero-subtitle': ' FREE every month!',
+                'hero-description': 'Access all Canva premium features at no cost. Join our creative community now!',
+                'join-now': '🚀 Join Now',
+                'view-features': '✨ View All Canva Pro Features',
+                'donate': '💝 Donate',
+                'info-title': '📢 Important Information',
+                'info-usage': 'Feel free to use and share, but please don\'t sell!',
+                'info-suggestion': 'Our suggestion: Please share this website to your friends who want to join the Monthly Canva Pro team rather than having to invite them through Canva, because after we share this Canva we will not open Canva again and your invitations will definitely be delayed indefinitely.',
+                'features-title': '🎨 Canva Pro Features',
+                'features-subtitle': 'Get access to all premium features that will transform the way you create',
+                'feature-1-title': 'Background Remover',
+                'feature-1-desc': 'Remove image backgrounds automatically with advanced AI',
+                'feature-2-title': 'Premium Templates',
+                'feature-2-desc': 'Access thousands of premium templates for all design needs',
+                'feature-3-title': 'Premium Stock Photos',
+                'feature-3-desc': 'Millions of high-quality photos, illustrations, and videos',
+                'feature-4-title': 'Magic Resize',
+                'feature-4-desc': 'Automatically resize designs for various platforms',
+                'feature-5-title': 'Team Collaboration',
+                'feature-5-desc': 'Collaborate with your team in real-time',
+                'feature-6-title': 'Video Editor',
+                'feature-6-desc': 'Edit professional videos with ease',
+                'terms': 'Terms of Use',
+                'privacy': 'Privacy Policy',
+                'copyright': '© 2025 Canva Pro Monthly. Made with ❤️ for Indonesian creative community.',
+                'donate-title': '💝 QRIS Donation',
+                'donate-desc': 'Thank you for your support to keep this website free!',
+                'close': 'Close'
+            }
+        };
+
+        // Dark mode functionality
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const html = document.documentElement;
+
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        if (currentTheme === 'dark') {
+            html.classList.add('dark');
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            const theme = html.classList.contains('dark') ? 'dark' : 'light';
+            localStorage.setItem('theme', theme);
+        });
+
+        // Language functionality
+        const languageSelect = document.getElementById('languageSelect');
+        const currentLang = localStorage.getItem('language') || 'id';
+        languageSelect.value = currentLang;
+
+        function updateLanguage(lang) {
+            const elements = document.querySelectorAll('[data-translate]');
+            elements.forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (translations[lang] && translations[lang][key]) {
+                    element.textContent = translations[lang][key];
+                }
+            });
+            localStorage.setItem('language', lang);
+        }
+
+        languageSelect.addEventListener('change', (e) => {
+            updateLanguage(e.target.value);
+        });
+
+        // Initialize language
+        updateLanguage(currentLang);
+
+        // Button functionality
+        document.getElementById('joinNowBtn').addEventListener('click', () => {
+            window.location.href = '/tautan/halaman-4.html';
+        });
+
+        document.getElementById('featuresBtn').addEventListener('click', () => {
+            window.open('/fitur.html', '_blank');
+        });
+
+        // QRIS Modal functionality
+        const qrisModal = document.getElementById('qrisModal');
+        const qrisContent = document.getElementById('qrisContent');
+        const donateBtn = document.getElementById('donateBtn');
+        const closeQrisBtn = document.getElementById('closeQrisBtn');
+
+        function showQrisModal() {
+            qrisModal.classList.remove('hidden');
+            setTimeout(() => {
+                qrisContent.classList.remove('scale-95', 'opacity-0');
+                qrisContent.classList.add('scale-100', 'opacity-100');
+            }, 10);
+        }
+
+        function hideQrisModal() {
+            qrisContent.classList.remove('scale-100', 'opacity-100');
+            qrisContent.classList.add('scale-95', 'opacity-0');
+            setTimeout(() => {
+                qrisModal.classList.add('hidden');
+            }, 300);
+        }
+
+        donateBtn.addEventListener('click', showQrisModal);
+        closeQrisBtn.addEventListener('click', hideQrisModal);
+
+        // Close modal when clicking outside
+        qrisModal.addEventListener('click', (e) => {
+            if (e.target === qrisModal) {
+                hideQrisModal();
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-white/95', 'dark:bg-gray-900/95');
+            } else {
+                navbar.classList.remove('bg-white/95', 'dark:bg-gray-900/95');
+            }
+        });
+
+        // Lazy loading for images
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazy');
+                        imageObserver.unobserve(img);
+                    }
+                });
+            });
+
+            document.querySelectorAll('img[data-src]').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+    </script>
+</body>
+</html>
